@@ -2,12 +2,14 @@
 
 Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untuk membangun **data warehouse** dari data transaksi retail menggunakan Python dan SQL. Pipeline mengambil data dari tabel-tabel OLTP seperti `orders`, `order_items`, `products`, `customers`, dan lainnya, lalu mengubahnya menjadi skema dimensional (star schema) serta membuat dashboard dan melakukan analysis terhadap data.
 
-## 📁 Struktur Proyek
+## 📁 ETL Process
 
 - `etl.ipynb` — Notebook Jupyter yang berisi skrip ETL untuk:
   - Membuat tabel-tabel dimensi dan fakta (`dim_customers`, `dim_products`, `product_sales`, dll)
   - Melakukan transformasi data dengan perintah SQL
-  - Memasukkan data hasil transformasi ke dalam data warehouse
+  - Memasukkan data hasil transformasi ke dalam database staging
+  - Membuat schema data warehouse dengan draw.io
+  - memasukan data dari database staging ke dalam data warehouse
 
 ## 🏗️ Skema Data Warehouse
 
