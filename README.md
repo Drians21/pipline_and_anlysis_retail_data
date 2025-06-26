@@ -55,7 +55,7 @@ Berikut adalah tampilan visual dari dashboard:
 
 ### 2. **Total Sales by Day**
 
-Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan beberapa puncak (terutama sekitar hari ke-3, ke-13, dan ke-20) dan periode penjualan yang rendah.
+Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan beberapa puncak (terutama sekitar hari ke-2, ke-13, dan ke-20) dan periode penjualan yang rendah.
 
 **Insight:**
 * Puncak penjualan yang jelas terlihat pada tanggal 13 Februari, menunjukkan adanya faktor pendorong penjualan pada hari tersebut (misalnya, promosi khusus, *event*, atau *payday*).
@@ -68,7 +68,6 @@ Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan b
 
 **Insight:**
 * Kategori **Food** mendominasi volume penjualan secara signifikan, menunjukkan permintaan yang tinggi atau strategi bisnis yang berfokus pada kategori ini.
-* Terdapat disparitas volume penjualan yang besar antar kategori, menyoroti performa yang berbeda.
 
 ### 4. **Total Sales by Customer**
 
@@ -85,12 +84,9 @@ Menampilkan 10 pelanggan teratas berdasarkan nilai penjualan.
 ## 💡 Rekomendasi & Langkah Selanjutnya
 
 Berdasarkan insight dari dashboard ini, berikut beberapa rekomendasi:
-
-
-    * Manfaatkan dominasi kategori "Food" dengan memperluas variasi produk atau menjalankan promosi khusus.
-    * Evaluasi kategori berkinerja rendah (misalnya, Otomotive, Furniture). Pertimbangkan apakah perlu penyesuaian inventaris, strategi harga, atau upaya pemasaran yang lebih intensif untuk kategori ini.
-    * Buat program loyalitas atau penghargaan khusus untuk pelanggan teratas (misalnya, "Cotton Salad Rustic") untuk mempertahankan pelanggan.
-    * Lakukan analisis mendalam tentang profil dan kebiasaan belanja pelanggan *high-value* untuk mengidentifikasi potensi *cross-selling* atau *up-selling*.
+* Manfaatkan dominasi kategori "Food" dengan memperluas variasi produk atau menjalankan promosi khusus.
+* Evaluasi kategori berkinerja rendah (misalnya, Otomotive, Furniture). Pertimbangkan apakah perlu penyesuaian inventaris, strategi harga, atau upaya pemasaran yang lebih intensif untuk kategori ini.
+* Buat program loyalitas atau penghargaan khusus untuk pelanggan teratas (misalnya, "Cotton Salad Rustic") untuk mempertahankan pelanggan.
 
 ## 🛠️ Teknologi yang Digunakan
 
