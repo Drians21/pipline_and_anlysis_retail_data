@@ -1,6 +1,6 @@
 # 🧩 Pipeline dan Anlysis Retail Data
 
-Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untuk membangun **data warehouse** dari data transaksi retail menggunakan Python dan SQL. Pipeline mengambil data dari tabel-tabel OLTP seperti `orders`, `order_items`, `products`, `customers`, dan lainnya, lalu mengubahnya menjadi skema dimensional (star schema) serta memebuat dashboard dan melakukan analysis terhadap data.
+Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untuk membangun **data warehouse** dari data transaksi retail menggunakan Python dan SQL. Pipeline mengambil data dari tabel-tabel OLTP seperti `orders`, `order_items`, `products`, `customers`, dan lainnya, lalu mengubahnya menjadi skema dimensional (star schema) serta membuat dashboard dan melakukan analysis terhadap data.
 
 ## 📁 Struktur Proyek
 
