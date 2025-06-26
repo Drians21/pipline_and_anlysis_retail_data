@@ -27,8 +27,8 @@ Proyek ini membentuk skema data warehouse sebagai berikut:
 ## 🚀 Gambaran Umum Dashboard
 
 Berikut adalah tampilan visual dari dashboard:
-Tableau public access -> ![Tableau Public](https://public.tableau.com/app/profile/adrian.saputra/viz/retailanalysis_17509125657330/Dashboard1?publish=yes) \
-![Retail Dashboard Feb 2023](retail_dashboard.png?width=500)
+* Tableau public access -> ![Tableau Public](https://public.tableau.com/app/profile/adrian.saputra/viz/retailanalysis_17509125657330/Dashboard1?publish=yes) <br>
+![Retail Dashboard Feb 2023](retail_dashboard.png?width=300)
 
 ---
 
