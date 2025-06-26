@@ -14,6 +14,9 @@ Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untu
 ## 🏗️ Skema Data Warehouse
 
 Proyek ini membentuk skema data warehouse sebagai berikut:
+<br>
+
+![schema data warehouse](schema_data_warehouse.png?width=300)
 
 **Tabel Fakta:**
 - `product_sales`: Menyimpan data transaksi penjualan (jumlah, harga, diskon, tanggal, dll)
