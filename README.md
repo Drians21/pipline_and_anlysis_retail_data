@@ -1,13 +1,15 @@
-# 🧩 Proyek ETL Data Warehouse Retail
+# 🧩 Pipeline dan Anlysis Retail Data
 
-Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untuk membangun **data warehouse** dari data transaksi retail menggunakan Python dan SQL. Pipeline mengambil data dari tabel-tabel OLTP seperti `orders`, `order_items`, `products`, `customers`, dan lainnya, lalu mengubahnya menjadi skema dimensional (star schema) untuk keperluan analisis dan pelaporan.
+Proyek ini menunjukkan implementasi pipeline ETL (Extract, Transform, Load) untuk membangun **data warehouse** dari data transaksi retail menggunakan Python dan SQL. Pipeline mengambil data dari tabel-tabel OLTP seperti `orders`, `order_items`, `products`, `customers`, dan lainnya, lalu mengubahnya menjadi skema dimensional (star schema) serta membuat dashboard dan melakukan analysis terhadap data.
 
-## 📁 Struktur Proyek
+## 📁 ETL Process
 
 - `etl.ipynb` — Notebook Jupyter yang berisi skrip ETL untuk:
   - Membuat tabel-tabel dimensi dan fakta (`dim_customers`, `dim_products`, `product_sales`, dll)
   - Melakukan transformasi data dengan perintah SQL
-  - Memasukkan data hasil transformasi ke dalam data warehouse
+  - Memasukkan data hasil transformasi ke dalam database staging
+  - Membuat schema data warehouse dengan draw.io
+  - memasukan data dari database staging ke dalam data warehouse
 
 ## 🏗️ Skema Data Warehouse
 
@@ -27,8 +29,8 @@ Proyek ini membentuk skema data warehouse sebagai berikut:
 ## 🚀 Gambaran Umum Dashboard
 
 Berikut adalah tampilan visual dari dashboard:
-
-![Retail Dashboard Feb 2023](retail_dashboard.png)
+* Tableau public access -> ![Tableau Public](https://public.tableau.com/app/profile/adrian.saputra/viz/retailanalysis_17509125657330/Dashboard1?publish=yes) <br>
+![Retail Dashboard Feb 2023](retail_dashboard.png?width=300)
 
 ---
 
@@ -55,7 +57,7 @@ Berikut adalah tampilan visual dari dashboard:
 
 ### 2. **Total Sales by Day**
 
-Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan beberapa puncak (terutama sekitar hari ke-3, ke-13, dan ke-20) dan periode penjualan yang rendah.
+Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan beberapa puncak (terutama sekitar hari ke-2, ke-13, dan ke-20) dan periode penjualan yang rendah.
 
 **Insight:**
 * Puncak penjualan yang jelas terlihat pada tanggal 13 Februari, menunjukkan adanya faktor pendorong penjualan pada hari tersebut (misalnya, promosi khusus, *event*, atau *payday*).
@@ -68,7 +70,6 @@ Visualisasi tren penjualan harian menunjukkan fluktuasi yang signifikan dengan b
 
 **Insight:**
 * Kategori **Food** mendominasi volume penjualan secara signifikan, menunjukkan permintaan yang tinggi atau strategi bisnis yang berfokus pada kategori ini.
-* Terdapat disparitas volume penjualan yang besar antar kategori, menyoroti performa yang berbeda.
 
 ### 4. **Total Sales by Customer**
 
@@ -85,12 +86,9 @@ Menampilkan 10 pelanggan teratas berdasarkan nilai penjualan.
 ## 💡 Rekomendasi & Langkah Selanjutnya
 
 Berdasarkan insight dari dashboard ini, berikut beberapa rekomendasi:
-
-
-    * Manfaatkan dominasi kategori "Food" dengan memperluas variasi produk atau menjalankan promosi khusus.
-    * Evaluasi kategori berkinerja rendah (misalnya, Otomotive, Furniture). Pertimbangkan apakah perlu penyesuaian inventaris, strategi harga, atau upaya pemasaran yang lebih intensif untuk kategori ini.
-    * Buat program loyalitas atau penghargaan khusus untuk pelanggan teratas (misalnya, "Cotton Salad Rustic") untuk mempertahankan pelanggan.
-    * Lakukan analisis mendalam tentang profil dan kebiasaan belanja pelanggan *high-value* untuk mengidentifikasi potensi *cross-selling* atau *up-selling*.
+* Manfaatkan dominasi kategori "Food" dengan memperluas variasi produk atau menjalankan promosi khusus.
+* Evaluasi kategori berkinerja rendah (misalnya, Otomotive, Furniture). Pertimbangkan apakah perlu penyesuaian inventaris, strategi harga, atau upaya pemasaran yang lebih intensif untuk kategori ini.
+* Buat program loyalitas atau penghargaan khusus untuk pelanggan teratas (misalnya, "Cotton Salad Rustic") untuk mempertahankan pelanggan.
 
 ## 🛠️ Teknologi yang Digunakan
 
